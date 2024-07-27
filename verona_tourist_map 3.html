@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a94eb6e6347295b41d7f9593885e5b3e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a94eb6e6347295b41d7f9593885e5b3e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a94eb6e6347295b41d7f9593885e5b3e = L.map(
+                "map_a94eb6e6347295b41d7f9593885e5b3e",
+                {
+                    center: [45.4384, 10.9916],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c26fc56e81f0acaa5e6b59967d41e4db = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_a94eb6e6347295b41d7f9593885e5b3e);
+        
+    
+            var marker_68132441ccb9a0d70525560cc5fa3412 = L.marker(
+                [45.463, 10.9831],
+                {}
+            ).addTo(map_a94eb6e6347295b41d7f9593885e5b3e);
+        
+    
+            var icon_ce8a6ccf147c8c88a9e60f7947176428 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_68132441ccb9a0d70525560cc5fa3412.setIcon(icon_ce8a6ccf147c8c88a9e60f7947176428);
+        
+    
+        var popup_68a9a0f7220bf1b89dea9bdf95afae93 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e1a47cedc1d2e859f8b56317b3a243bc = $(`<div id="html_e1a47cedc1d2e859f8b56317b3a243bc" style="width: 100.0%; height: 100.0%;">AlterEgo Club</div>`)[0];
+            popup_68a9a0f7220bf1b89dea9bdf95afae93.setContent(html_e1a47cedc1d2e859f8b56317b3a243bc);
+        
+
+        marker_68132441ccb9a0d70525560cc5fa3412.bindPopup(popup_68a9a0f7220bf1b89dea9bdf95afae93)
+        ;
+
+        
+    
+    
+            var marker_f20e27df1840157d7ff98771ead963ae = L.marker(
+                [45.4372, 10.6501],
+                {}
+            ).addTo(map_a94eb6e6347295b41d7f9593885e5b3e);
+        
+    
+            var icon_2458331bd87f2972bb07461dcb6e3e66 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f20e27df1840157d7ff98771ead963ae.setIcon(icon_2458331bd87f2972bb07461dcb6e3e66);
+        
+    
+        var popup_1bfb0c5a42afcde4629ccac5607a6fe2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d598e2acb4056e05fbcbfbd3794e4bef = $(`<div id="html_d598e2acb4056e05fbcbfbd3794e4bef" style="width: 100.0%; height: 100.0%;">Cohouse Peschiera</div>`)[0];
+            popup_1bfb0c5a42afcde4629ccac5607a6fe2.setContent(html_d598e2acb4056e05fbcbfbd3794e4bef);
+        
+
+        marker_f20e27df1840157d7ff98771ead963ae.bindPopup(popup_1bfb0c5a42afcde4629ccac5607a6fe2)
+        ;
+
+        
+    
+    
+            var marker_4a7c09772949481cb5d0041e06ef0d8d = L.marker(
+                [45.4315, 10.9824],
+                {}
+            ).addTo(map_a94eb6e6347295b41d7f9593885e5b3e);
+        
+    
+            var icon_3ac36b24899bf523b532a86ef3ba42a9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4a7c09772949481cb5d0041e06ef0d8d.setIcon(icon_3ac36b24899bf523b532a86ef3ba42a9);
+        
+    
+        var popup_655e65df7e0c4f22c217626a21ba91f0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d569bc3770f2a6df336cfb37bf21d4f2 = $(`<div id="html_d569bc3770f2a6df336cfb37bf21d4f2" style="width: 100.0%; height: 100.0%;">Berfi's Club</div>`)[0];
+            popup_655e65df7e0c4f22c217626a21ba91f0.setContent(html_d569bc3770f2a6df336cfb37bf21d4f2);
+        
+
+        marker_4a7c09772949481cb5d0041e06ef0d8d.bindPopup(popup_655e65df7e0c4f22c217626a21ba91f0)
+        ;
+
+        
+    
+    
+            var marker_bfd1e40402942aaa30d1a97e4a8bc2c0 = L.marker(
+                [45.4303, 10.9765],
+                {}
+            ).addTo(map_a94eb6e6347295b41d7f9593885e5b3e);
+        
+    
+            var icon_66d72a34066fb4b8947c227b3863c3bb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bfd1e40402942aaa30d1a97e4a8bc2c0.setIcon(icon_66d72a34066fb4b8947c227b3863c3bb);
+        
+    
+        var popup_d23843902b5ce5cbc392ede7b68911f0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_13f9331d254a8a952be91cc82879b040 = $(`<div id="html_13f9331d254a8a952be91cc82879b040" style="width: 100.0%; height: 100.0%;">Fonderia 20.9</div>`)[0];
+            popup_d23843902b5ce5cbc392ede7b68911f0.setContent(html_13f9331d254a8a952be91cc82879b040);
+        
+
+        marker_bfd1e40402942aaa30d1a97e4a8bc2c0.bindPopup(popup_d23843902b5ce5cbc392ede7b68911f0)
+        ;
+
+        
+    
+    
+            var marker_97cfcfff25fe2262b26692873a932632 = L.marker(
+                [45.4447, 10.9885],
+                {}
+            ).addTo(map_a94eb6e6347295b41d7f9593885e5b3e);
+        
+    
+            var icon_279a772df653556c7b8bdb1db6cbc3e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_97cfcfff25fe2262b26692873a932632.setIcon(icon_279a772df653556c7b8bdb1db6cbc3e8);
+        
+    
+        var popup_ca44da37e626a6f9b5be71c2b804d65b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_80b5686c8ef12bffedcaeac56a3c20c2 = $(`<div id="html_80b5686c8ef12bffedcaeac56a3c20c2" style="width: 100.0%; height: 100.0%;">Arsenale di Verona</div>`)[0];
+            popup_ca44da37e626a6f9b5be71c2b804d65b.setContent(html_80b5686c8ef12bffedcaeac56a3c20c2);
+        
+
+        marker_97cfcfff25fe2262b26692873a932632.bindPopup(popup_ca44da37e626a6f9b5be71c2b804d65b)
+        ;
+
+        
+    
+    
+            var marker_81bc1d8fd7defe81a0987247ee81802c = L.marker(
+                [45.4415, 11.001],
+                {}
+            ).addTo(map_a94eb6e6347295b41d7f9593885e5b3e);
+        
+    
+            var icon_f9a84c0fd3e2f43fc1f2c73a905c0ceb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_81bc1d8fd7defe81a0987247ee81802c.setIcon(icon_f9a84c0fd3e2f43fc1f2c73a905c0ceb);
+        
+    
+        var popup_af1eedc64cbc3eae1ec9ed8423b3d487 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6617cd56aec4b232523ee8416765b971 = $(`<div id="html_6617cd56aec4b232523ee8416765b971" style="width: 100.0%; height: 100.0%;">Osteria Sottoriva</div>`)[0];
+            popup_af1eedc64cbc3eae1ec9ed8423b3d487.setContent(html_6617cd56aec4b232523ee8416765b971);
+        
+
+        marker_81bc1d8fd7defe81a0987247ee81802c.bindPopup(popup_af1eedc64cbc3eae1ec9ed8423b3d487)
+        ;
+
+        
+    
+    
+            var marker_9e0b9f5cfb6073b4ed5bcccbcca1c12a = L.marker(
+                [45.4391, 10.9965],
+                {}
+            ).addTo(map_a94eb6e6347295b41d7f9593885e5b3e);
+        
+    
+            var icon_7701ed770f0162fad7120caef24bfb86 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9e0b9f5cfb6073b4ed5bcccbcca1c12a.setIcon(icon_7701ed770f0162fad7120caef24bfb86);
+        
+    
+        var popup_cb48477bb999017caf0075b716a16637 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d17a5a706bd666e01adc1555c1fbdf64 = $(`<div id="html_d17a5a706bd666e01adc1555c1fbdf64" style="width: 100.0%; height: 100.0%;">Antica Bottega del Vino</div>`)[0];
+            popup_cb48477bb999017caf0075b716a16637.setContent(html_d17a5a706bd666e01adc1555c1fbdf64);
+        
+
+        marker_9e0b9f5cfb6073b4ed5bcccbcca1c12a.bindPopup(popup_cb48477bb999017caf0075b716a16637)
+        ;
+
+        
+    
+    
+            var marker_f2c3afb33fd6f423a985f52ee4132eb2 = L.marker(
+                [45.4432, 10.991],
+                {}
+            ).addTo(map_a94eb6e6347295b41d7f9593885e5b3e);
+        
+    
+            var icon_4422a87c28f2a52f496e20c332a18491 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f2c3afb33fd6f423a985f52ee4132eb2.setIcon(icon_4422a87c28f2a52f496e20c332a18491);
+        
+    
+        var popup_a50ec893ced0cc3137d0935e9194ca2f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_04ec117ebde7db88975932cc1519e2ca = $(`<div id="html_04ec117ebde7db88975932cc1519e2ca" style="width: 100.0%; height: 100.0%;">The Brothers Cafè</div>`)[0];
+            popup_a50ec893ced0cc3137d0935e9194ca2f.setContent(html_04ec117ebde7db88975932cc1519e2ca);
+        
+
+        marker_f2c3afb33fd6f423a985f52ee4132eb2.bindPopup(popup_a50ec893ced0cc3137d0935e9194ca2f)
+        ;
+
+        
+    
+    
+            var marker_11ca58e072620f01f1b4c04f3838ea02 = L.marker(
+                [45.4434, 10.9984],
+                {}
+            ).addTo(map_a94eb6e6347295b41d7f9593885e5b3e);
+        
+    
+            var icon_136bd0ced9c552ae622f629ff5c4c738 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_11ca58e072620f01f1b4c04f3838ea02.setIcon(icon_136bd0ced9c552ae622f629ff5c4c738);
+        
+    
+        var popup_a7cf8bcff9a99defd34f55477396e6ab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0ff86082fd4a61d140d84ce89a80e449 = $(`<div id="html_0ff86082fd4a61d140d84ce89a80e449" style="width: 100.0%; height: 100.0%;">Piazza delle Erbe</div>`)[0];
+            popup_a7cf8bcff9a99defd34f55477396e6ab.setContent(html_0ff86082fd4a61d140d84ce89a80e449);
+        
+
+        marker_11ca58e072620f01f1b4c04f3838ea02.bindPopup(popup_a7cf8bcff9a99defd34f55477396e6ab)
+        ;
+
+        
+    
+    
+            var marker_df4627565199b6ddc7e567438f27b449 = L.marker(
+                [45.444, 10.9983],
+                {}
+            ).addTo(map_a94eb6e6347295b41d7f9593885e5b3e);
+        
+    
+            var icon_61ce1d98e116bdd433aeac5d9e6d8db3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_df4627565199b6ddc7e567438f27b449.setIcon(icon_61ce1d98e116bdd433aeac5d9e6d8db3);
+        
+    
+        var popup_e27914b7b07f81e3940d6bcdf0bc02fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3fda83ad68b4e9f80125d59d4242b949 = $(`<div id="html_3fda83ad68b4e9f80125d59d4242b949" style="width: 100.0%; height: 100.0%;">Torre dei Lamberti</div>`)[0];
+            popup_e27914b7b07f81e3940d6bcdf0bc02fb.setContent(html_3fda83ad68b4e9f80125d59d4242b949);
+        
+
+        marker_df4627565199b6ddc7e567438f27b449.bindPopup(popup_e27914b7b07f81e3940d6bcdf0bc02fb)
+        ;
+
+        
+    
+    
+            var marker_b5f2b4a0764fe2e1b365a2f7dbf1e116 = L.marker(
+                [45.4427, 10.9995],
+                {}
+            ).addTo(map_a94eb6e6347295b41d7f9593885e5b3e);
+        
+    
+            var icon_18bb05a94165cbc2db2aee0f05081c9e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b5f2b4a0764fe2e1b365a2f7dbf1e116.setIcon(icon_18bb05a94165cbc2db2aee0f05081c9e);
+        
+    
+        var popup_743fae5e64b7e3df3819cbdafd845d7a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_446e48bcf69b7eb2e1e60dd6af53b428 = $(`<div id="html_446e48bcf69b7eb2e1e60dd6af53b428" style="width: 100.0%; height: 100.0%;">Juliet's House (Casa di Giulietta)</div>`)[0];
+            popup_743fae5e64b7e3df3819cbdafd845d7a.setContent(html_446e48bcf69b7eb2e1e60dd6af53b428);
+        
+
+        marker_b5f2b4a0764fe2e1b365a2f7dbf1e116.bindPopup(popup_743fae5e64b7e3df3819cbdafd845d7a)
+        ;
+
+        
+    
+    
+            var marker_69147fa8582e13b4d2f737f57a88b48a = L.marker(
+                [45.438, 10.9944],
+                {}
+            ).addTo(map_a94eb6e6347295b41d7f9593885e5b3e);
+        
+    
+            var icon_6dea952faf7f684474f816d17cf65442 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_69147fa8582e13b4d2f737f57a88b48a.setIcon(icon_6dea952faf7f684474f816d17cf65442);
+        
+    
+        var popup_e600085d098437aef6b5a7b030b045b5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8807cb6589ac94c4adafbc98754afb4e = $(`<div id="html_8807cb6589ac94c4adafbc98754afb4e" style="width: 100.0%; height: 100.0%;">Verona Arena</div>`)[0];
+            popup_e600085d098437aef6b5a7b030b045b5.setContent(html_8807cb6589ac94c4adafbc98754afb4e);
+        
+
+        marker_69147fa8582e13b4d2f737f57a88b48a.bindPopup(popup_e600085d098437aef6b5a7b030b045b5)
+        ;
+
+        
+    
+    
+            var marker_0bbb085caa6745c39534b10d89d08526 = L.marker(
+                [45.4402, 10.9878],
+                {}
+            ).addTo(map_a94eb6e6347295b41d7f9593885e5b3e);
+        
+    
+            var icon_4b83087b9660fe0292b22cebe72ae168 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0bbb085caa6745c39534b10d89d08526.setIcon(icon_4b83087b9660fe0292b22cebe72ae168);
+        
+    
+        var popup_d1d475f9557c775972eed5fc394e12db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_88ae20db63d0ab5f10d7472b7137fd7e = $(`<div id="html_88ae20db63d0ab5f10d7472b7137fd7e" style="width: 100.0%; height: 100.0%;">Castelvecchio and Castelvecchio Bridge</div>`)[0];
+            popup_d1d475f9557c775972eed5fc394e12db.setContent(html_88ae20db63d0ab5f10d7472b7137fd7e);
+        
+
+        marker_0bbb085caa6745c39534b10d89d08526.bindPopup(popup_d1d475f9557c775972eed5fc394e12db)
+        ;
+
+        
+    
+    
+            var marker_23519c8008f0c0a373bd491c75ead315 = L.marker(
+                [45.4463, 11.0017],
+                {}
+            ).addTo(map_a94eb6e6347295b41d7f9593885e5b3e);
+        
+    
+            var icon_2073ba31d815ccedfed8c1d0a443507f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_23519c8008f0c0a373bd491c75ead315.setIcon(icon_2073ba31d815ccedfed8c1d0a443507f);
+        
+    
+        var popup_66bffdb9c18490df7520b5280acd7f5f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e6978de865986accfe795c1a861a98d7 = $(`<div id="html_e6978de865986accfe795c1a861a98d7" style="width: 100.0%; height: 100.0%;">Ponte Pietra</div>`)[0];
+            popup_66bffdb9c18490df7520b5280acd7f5f.setContent(html_e6978de865986accfe795c1a861a98d7);
+        
+
+        marker_23519c8008f0c0a373bd491c75ead315.bindPopup(popup_66bffdb9c18490df7520b5280acd7f5f)
+        ;
+
+        
+    
+    
+            var marker_cd079758fde4bbff9db7d4c12409fcfb = L.marker(
+                [45.4453, 11.0004],
+                {}
+            ).addTo(map_a94eb6e6347295b41d7f9593885e5b3e);
+        
+    
+            var icon_a523d7e9cd47fd6b2e0731547d85db61 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cd079758fde4bbff9db7d4c12409fcfb.setIcon(icon_a523d7e9cd47fd6b2e0731547d85db61);
+        
+    
+        var popup_f9c55dff92d9cbd255f8558615067ee6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_725f6f75cb551689b924147ca2e957b1 = $(`<div id="html_725f6f75cb551689b924147ca2e957b1" style="width: 100.0%; height: 100.0%;">Sant'Anastasia</div>`)[0];
+            popup_f9c55dff92d9cbd255f8558615067ee6.setContent(html_725f6f75cb551689b924147ca2e957b1);
+        
+
+        marker_cd079758fde4bbff9db7d4c12409fcfb.bindPopup(popup_f9c55dff92d9cbd255f8558615067ee6)
+        ;
+
+        
+    
+</script>
+</html>
